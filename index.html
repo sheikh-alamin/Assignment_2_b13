@@ -27,8 +27,11 @@
     </header>
     <section class="hero bg-[url(./assets/hero-bg.png)] bg-center bg-cover bg-no-repeat">
         <div class=" text-center align-middle py-16 max-w-10/12 m-auto ">
-            <img class="gradient_circle m-auto bg-no-repeat bg-[url(./assets/microphone.png)] "src="./assets/hero-circle.png" alt="">
-            <!-- <img class="mic" src="./assets/microphone.png" alt=""> -->
+            <img class="gradient_circle m-auto bg-no-repeat relative"src="./assets/hero-circle.png" alt="">
+            <img class="mic absolute top-63 right-175" src="./assets/microphone.png" alt="">
+            
+            <button class=" bg-[#00FF88] text-[#1A0b2e] font-bold py-2 px-4 relative rounded-2xl bottom-80 left-35 shadow-lg ">NEW</button>
+            
             <h3 class="font-extrabold text-6xl text-white mt-10">TechWave</h3>
             <p class="font-normal text-[#16px] text-[#ffffff77] mt-2 mb-6">Your daily dose of tech insights, productivity hacks, and personal growth</p>
             <div class="buttons">
@@ -45,7 +48,7 @@
                 We break down complex topics into digestible insights, explore productivity strategies that actually work,
                 and share stories of personal growth from industry leaders.</p>
             <p class="font-normal text-[#16px] text-[#ffffff77] py-8 pb-10">Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
-            <hr class="hr">
+            <hr class="hr text-[#ffffff77] m-auto">
             <div class="podcast_bottom flex justify-around py-14">
                 <div class="bottom_details">
                     <h2 class="font-extrabold text-5xl text-[#00FF88]">150K+</h2>
@@ -148,10 +151,10 @@
         </div>
     </section>
     <section class="padding bg-[url(./assets/footer-bg.png)] bg-center bg-cover bg-no-repeat p-28">
-        <div class="max-w-11/12 m-auto text-center content-center border-2">
-            <div class="logo font-extrabold text-4xl">Tech<span class="bg-linear-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100F8] bg-clip-text text-transparent">Wave</span></div>
+        <div class="max-w-11/12 m-auto text-center content-center">
+            <div class="logo text-white font-extrabold text-6xl mb-8">Tech<span class="bg-linear-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100F8] bg-clip-text text-transparent">Wave</span></div>
             <div class="social_icons flex justify-center align-middle gap-2">
-                <i class="fa-brands fa-spotify text-[#ffffff77]"></i>
+                <i class="fa-brands fa-spotify text-[#ffffff77] leading-2"></i>
                 <p class="font-normal text-[#16px] text-[#ffffff77] mr-1">Spotify</p>
                 <i class="fa-solid fa-podcast  text-[#ffffff77]"></i>
                 <p class="font-normal text-[#16px] text-[#ffffff77] mr-1">Apple Podcast</p>
@@ -161,7 +164,7 @@
                 <p class="font-normal text-[#16px] text-[#ffffff77]">Twitter</p>
             </div>
             <div>
-                <p class="font-normal text-[#16px] text-[#ffffff77]">© 2026 TechWave Podcast. All rights reserved.</p>
+                <p class="font-normal text-[#16px] text-[#ffffff77] pt-8">© 2026 TechWave Podcast. All rights reserved.</p>
             </div>
         </div>
     </section>
