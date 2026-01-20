@@ -1,7 +1,6 @@
 @import "tailwindcss"
 
-
-.inter{
+.inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
@@ -9,6 +8,79 @@
 .cent {
    align-content: center; 
 }
-.bottom_padding{
+.bottom_padding {
   margin-bottom: 20px;
+}
+.social_icons {
+  align-items: center;
+}
+.checkbtn {
+  display: none;
+  cursor: pointer;
+}
+#check {
+  display: none;
+}
+
+@media screen and (max-width:576px) {
+  .nav_button {
+    display: none;
+  }
+  .checkbtn {
+    display: block;
+  }
+  .menu li {
+    display: none;
+  }
+  .podcast_bottom {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .episode_cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .host {
+    display: block;
+    text-align: center;
+  }
+  .host img {
+    max-width: 60%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .social_icon {
+    justify-content: center;
+  }
+  .social_icons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 0px;
+  }
+
+  .tech_design {
+    display: block;
+  }
+  .design_one {
+    margin-bottom: 20px;
+  }
+  .design_two {
+    margin-bottom: 20px;
+  }
+  .design_three {
+    margin-bottom: 20px;
+  }
+  .design_four {
+    margin-bottom: 20px;
+  }
+  .design_five {
+    margin-bottom: 20px;
+  }
+  .bottom_logo {
+    font-size: 50px;
+  }
+  .padding {
+    padding: 10vmax;
+  }
 }
