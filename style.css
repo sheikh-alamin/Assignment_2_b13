@@ -32,6 +32,9 @@
   .menu li {
     display: none;
   }
+  .podcast_header {
+    margin-top: 60px;
+  }
   .podcast_bottom {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -39,6 +42,9 @@
   .episode_cards {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+  }
+  .feature {
+    padding-top: 40px ;
   }
   .host {
     display: block;
@@ -58,7 +64,13 @@
     gap: 10px;
     padding: 0px;
   }
-
+  .social_icons p {
+    margin-left: -35px;
+    text-align: left;
+  }
+  .why_tech {
+    padding-top: 30px;
+  }
   .tech_design {
     display: block;
   }
